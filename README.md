@@ -13,6 +13,8 @@ Important App Files
 * package.json
 * icon.png
 * README.md
+* mySensor.js
+* fiWareConnector.js
 
 License Information Follows
 ---------------------------
