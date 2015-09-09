@@ -1,12 +1,10 @@
-Blank Node.js IoT App
+PlantCare IoT App
 ============================
-The Blank Node.js sample application distributed within Intel® XDK IoT Edition under the Internet of Things  project creation option.
+It is an application that is connected to a Intel Edison board that water a plant when the humidity of the field is under 40%.
 
-Intel(R) XDK IoT Edition
+Fi-Ware Connector
 -------------------------------------------
-This template is part of the Intel(R) XDK IoT Edition. 
-Download the Intel(R) XDK IoT Edition at https://software.intel.com/en-us/html5/xdk-iot. To see the technical details of the sample, 
-please visit the sample article page at https://software.intel.com/en-us/xdk/docs/intel-xdk-iot-edition-nodejs-templates.
+It is a class that allows to send data to the Fi-Ware platform. You only have to put your data into a dictionary example-> measures["example"]=1 and the class send it to the platform
 
 
 Important App Files
