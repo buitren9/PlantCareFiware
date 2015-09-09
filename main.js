@@ -18,6 +18,7 @@ var measures = {};
 
 function startSensorWatch() {
     setInterval(function () {
+		//read the data from the sensors
 		var plantHumidity = mySensors.readHumiditySensor(1).toFixed(1);
 		var celsius_temperature = mySensors.readTemperature(0,true).toFixed(1);
 		
@@ -25,13 +26,14 @@ function startSensorWatch() {
 		console.log ("temperature:"+celsius_temperature + "Cº");
 		console.log("Date "+new Date().toISOString().replace(/T/, ' ').replace(/\..+/, ''));
 		checkMotor(plantHumidity);
-		
+		//show them in the LCD display
 		myLCD.clear();
 		myLCD.setCursor(0,0);
 		myLCD.write("Humidity:"+plantHumidity+"%");
      	myLCD.setCursor(1,0);
 		myLCD.write("Temperature:"+celsius_temperature);
 		
+		//upload to the Fi-Ware Platform
 		measures["t"] = celsius_temperature;
 		measures["h"]=plantHumidity;
 		measures["r"]=relay.isOn();
@@ -43,9 +45,10 @@ function startSensorWatch() {
 
 startSensorWatch();
 
+
+//check the humidity and put the relay ON/OFF
 function checkMotor(humidity){
 
-myLCD.setCursor(1,1);
 	if (humidity < 40){
 		relay.on();
 		myLCD.write("Pump: On");
