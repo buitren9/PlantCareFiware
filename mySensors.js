@@ -1,7 +1,7 @@
 //################# LIBRARIES ################   
 var mraa = require("mraa");
 
-var DEBUG = false;
+var DEBUG = true;
 
 /** That function is used to read the Humidity of the ground */
 var readHumidity =  function (pin){
@@ -9,7 +9,8 @@ var readHumidity =  function (pin){
 	//put the pin into analogic pin 1
 	var humiditySensor = new mraa.Aio(pin);
 	var humidity = humiditySensor.read();
-	humidity = (5/1024)*humidity;
+	console.log("Read value: " + humidity+"V");
+	humidity = (2.4/767)*humidity;
 	if (DEBUG)
 		console.log("volt value: " + humidity+"V");
 	//calculate the per cent of the humidity

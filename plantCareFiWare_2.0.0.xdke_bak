@@ -1,7 +1,7 @@
 {
   "project": {
-    "projectSettingsVersion": "3.0.0",
-    "currentBuildConfiguration": null,
+    "projectSettingsVersion": "2.0.0",
+    "currentBuildConfiguration": "Android",
     "projectFiles": {},
     "projectDirectories": {},
     "initialAutoPluginCount": 0
@@ -89,8 +89,5 @@
         "previousModTime": 1464182812967
       }
     }
-  },
-  "editorTab": {
-    "currentEditorMode": 0
   }
 }

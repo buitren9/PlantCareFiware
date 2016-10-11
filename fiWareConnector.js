@@ -4,15 +4,18 @@
 var request = require("request");
 
 //################ FIWARE VARIABLES ################
-var FIWARE_APIKEY = //YOUR API KEY ;
+
+var FIWARE_APIKEY = "apikey" ;
+
+
 //Device´s name
-var FIWARE_DEVICE = //YOUR DEVICE NAME ;
-var FIWARE_SERVER = 'test.ttcloud.net';
-var FIWARE_PORT = '8082';
+var FIWARE_DEVICE = "deviceName" ;
+var FIWARE_SERVER = 'fiwareServer';
+var FIWARE_PORT = 'port';
+
+
 var STATUS_CODE_OK = 200;
 
-
-	
 var postMeasures = function(measures){
 
 var body=""; //FIWARE IoT Stack body message
@@ -42,7 +45,7 @@ request(options, function (error, response, body) {
 	if (error){
 		console.log('--ERROR connectivity problems');	
 	}else{
-		if (response.statusCode = STATUS_CODE_OK){
+		if (response.statusCode == STATUS_CODE_OK){
 			console.log('--Data uploaded to FIWARE IoT Stack');
 		}else{
 			console.log('--ERROR Status Code: '+response.statusCode);
