@@ -75,5 +75,3 @@ function checkMotor(humidity){
 			isWater=true;
 	}
 }
-
-}

@@ -1,9 +1,86 @@
 {
   "project": {
-    "projectSettingsVersion": "2.0.0",
-    "currentBuildConfiguration": "Android",
+    "projectSettingsVersion": "3.0.0",
+    "currentBuildConfiguration": null,
     "projectFiles": {},
-    "projectDirectories": {},
-    "initialAutoPluginCount": 0
+    "projectDirectories": {}
+  },
+  "editorTab": {
+    "currentEditorMode": 0
+  },
+  "iot-tab": {
+    "fileStatus": {
+      ".gitignore": {
+        "previousModTime": 1479281110000,
+        "modified": 1479281110000,
+        "seen": true,
+        "name": ".gitignore"
+      },
+      "LICENSE.md": {
+        "previousModTime": 1479281110000,
+        "modified": 1479281110000,
+        "seen": true,
+        "name": "LICENSE.md"
+      },
+      "README.md": {
+        "previousModTime": 1479281110000,
+        "modified": 1479281110000,
+        "seen": true,
+        "name": "README.md"
+      },
+      "fiWareConnector.js": {
+        "previousModTime": 1476181615000,
+        "modified": 1476181615000,
+        "seen": true,
+        "name": "fiWareConnector.js"
+      },
+      "icon.png": {
+        "previousModTime": 1479281110000,
+        "modified": 1479281110000,
+        "seen": true,
+        "name": "icon.png"
+      },
+      "main.js": {
+        "previousModTime": 1479284787000,
+        "modified": 1479284787000,
+        "seen": true,
+        "name": "main.js"
+      },
+      "mySensors.js": {
+        "previousModTime": 1476181615000,
+        "modified": 1476181615000,
+        "seen": true,
+        "name": "mySensors.js"
+      },
+      "package.json": {
+        "previousModTime": 1479281110000,
+        "modified": 1479281110000,
+        "seen": true,
+        "name": "package.json"
+      },
+      "plantCareFiWare.xdk": {
+        "previousModTime": 1479281112000,
+        "modified": 1479281112000,
+        "seen": true,
+        "name": "plantCareFiWare.xdk"
+      },
+      "plantCareFiWare.xdke": {
+        "previousModTime": 1479284767000,
+        "modified": 1479284767000,
+        "seen": true,
+        "name": "plantCareFiWare.xdke"
+      },
+      "xdk/project-info.json": {
+        "previousModTime": 1479281111000,
+        "modified": 1479281111000,
+        "seen": true,
+        "name": "xdk/project-info.json"
+      }
+    },
+    "boardFileStatus": {
+      "main.js": {
+        "previousModTime": 1479284790637
+      }
+    }
   }
 }
