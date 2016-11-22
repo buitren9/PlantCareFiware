@@ -70,7 +70,7 @@ public class FiwareConnector {
 	
 		OkHttpClient client = new OkHttpClient();
 
-		MediaType mediaType = MediaType.parse("application/octet-stream");
+		MediaType mediaType = MediaType.parse("text/plain");
 		RequestBody body = RequestBody.create(mediaType, data);
 		Request request = new Request.Builder()
 		  .url("http://"+URL_SERVICE+":"+PORT+"/iot/d?i="+DEVICE_NAME+"&k="+API_KEY)
