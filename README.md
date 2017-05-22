@@ -11,7 +11,7 @@ The example is available in:
 *	[Pyton](https://github.com/buitren9/PlantCareFiware/tree/master/python)
 *	[Node.js](https://github.com/buitren9/PlantCareFiware/tree/master/nodejs)	  
 
-And finaly this is my plant at my office :)
+And finally this is my plant at my office :)
 
 ![image](https://github.com/buitren9/PlantCareFiware/blob/master/readMeResources/pic1.jpg )
 
